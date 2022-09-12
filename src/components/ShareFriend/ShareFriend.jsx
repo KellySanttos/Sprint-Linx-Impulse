@@ -1,6 +1,8 @@
 import React from 'react';
+import Button from '../Button/Button.jsx';
+import S from './ShareFriend.module.css';
 
-const FriendForm = () => {
+const ShareFriend = () => {
     function sending(e) {
       e.preventDefault();
       alert('Amigo Convidado!');
@@ -29,3 +31,5 @@ const FriendForm = () => {
     </form>
   );
 };
+
+export default ShareFriend;
