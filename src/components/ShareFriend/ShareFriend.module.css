@@ -34,4 +34,14 @@
         gap: 20px;
       }
 
+      .p{
+        font-size: 14px;
+        text-align: center;
+        padding: 15px;
+      }
     
+      .divInput{
+        align-items: flex-start;
+        width: 300px;
+      }
+    }
