@@ -37,3 +37,9 @@
     align-items: center;
 }
 
+@media screen and (max-width: 450px) {
+    .form{
+      width: 300px;
+      gap: 40px;
+    }
+}
