@@ -31,4 +31,9 @@ const Form = (type) => {
         <Input className={S.input} id="email" type="email" {...email} />
       </div>
 
+      <div className={S.divInput}>
+        <Label texto="CPF" />
+        <Input className={S.input} id="cpf" type="text" {...cpf} />
+      </div>
+
       
