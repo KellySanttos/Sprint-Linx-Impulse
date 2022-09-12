@@ -51,3 +51,5 @@ const Form = (type) => {
     </form>
   );
 };
+
+export default Form;
