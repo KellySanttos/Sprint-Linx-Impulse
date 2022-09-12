@@ -29,4 +29,9 @@
       align-items: center;
     }
 
+    .section{
+        flex-direction: column;
+        gap: 20px;
+      }
+
     
