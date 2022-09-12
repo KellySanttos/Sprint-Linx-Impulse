@@ -45,3 +45,5 @@ const useForm = (type) => {
         validate: () => validate(value),
     };
 };
+
+export default useForm;
