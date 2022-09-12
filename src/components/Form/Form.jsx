@@ -26,4 +26,9 @@ const Form = (type) => {
             <Input className={S.input} id="name" type="text" {...name} />
           </div>
 
-          
+          <div className={S.divInput}>
+        <Label texto="Email" />
+        <Input className={S.input} id="email" type="email" {...email} />
+      </div>
+
+      
