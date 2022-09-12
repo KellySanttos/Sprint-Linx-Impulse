@@ -36,4 +36,12 @@ const Form = (type) => {
         <Input className={S.input} id="cpf" type="text" {...cpf} />
       </div>
 
-      
+      <section className={S.sectionRadio}>
+        <div className={S.divRadio}>
+          <Input id="fem" name="radio" type="radio" />
+          <Label texto="Feminino" />
+        </div>
+        <div className={S.divRadio}>
+          <Input id="masc" name="radio" type="radio" />
+          <Label texto="Masculino" />
+        </div>
