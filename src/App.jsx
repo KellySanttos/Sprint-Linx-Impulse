@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ShareFriend from './components/ShareFriend/ShareFriend';
 import './App.css'
 
 function App() {
