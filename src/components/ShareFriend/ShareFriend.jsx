@@ -18,9 +18,14 @@ const FriendForm = () => {
           <Label texto="Nome do amigo:" />
           <Input type="text" />
         </div>
-        
+
         <div className={S.divInput}>
           <Label texto="E-mail do amigo:" />
           <Input type="email" />
         </div>
       </section>
+
+      <Button onClick={sending} className={S.button} content="Enviar" />
+    </form>
+  );
+};
