@@ -18,3 +18,12 @@ const Form = (type) => {
         console.log('não enviar');
       }
     }
+
+    return (
+        <form onSubmit={handleSubmit} className={S.form}>
+          <div className={S.divInput}>
+            <Label htmlFor="name" texto="Seu Nome" />
+            <Input className={S.input} id="name" type="text" {...name} />
+          </div>
+
+          
