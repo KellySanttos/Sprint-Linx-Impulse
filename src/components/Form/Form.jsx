@@ -45,3 +45,9 @@ const Form = (type) => {
           <Input id="masc" name="radio" type="radio" />
           <Label texto="Masculino" />
         </div>
+
+        </section>
+      <Button className={S.button} content="enviar" />
+    </form>
+  );
+};
