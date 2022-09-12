@@ -16,3 +16,11 @@ const Header = () => {
         Todos os produtos desta lista foram selecionados a partir da sua
         navegação.
       </p>
+
+      <div className={S.div}>
+        <span className={S.span}>Como fazemos isso?</span>
+        <Button className={S.button} content={'Saiba Mais'} />
+      </div>
+    </header>
+  );
+};
