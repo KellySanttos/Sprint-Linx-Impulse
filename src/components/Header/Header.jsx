@@ -11,3 +11,8 @@ const Header = () => {
         <h1 className={S.h1}>
         especial para <span className={S.diff}>você</span>
       </h1>
+
+      <p className={S.p}>
+        Todos os produtos desta lista foram selecionados a partir da sua
+        navegação.
+      </p>
