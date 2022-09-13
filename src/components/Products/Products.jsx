@@ -1,3 +1,11 @@
+import React from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import Card from '../Card/Card.jsx';
+import Button from '../Button/Button.jsx';
+import Separator from '../Separator/Separator.jsx';
+import S from './Products.module.css';
+
 const Products = () => {
     const [card, setNewCard] = useState([]);
     const [section, setSection] = useState(1);
