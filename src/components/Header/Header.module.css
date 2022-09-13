@@ -48,4 +48,13 @@
     justify-content: space-between;
   }
 
+  .button{
+    height: 40px;
+    width: 150px;
+    background-color: #ff8e3c;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
   
