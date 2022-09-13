@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../Button/Button.jsx';
 import S from './ShareFriend.module.css';
+import Label from '../Label/Label.jsx';
+import Input from '../Input/Input.jsx';
 
 const ShareFriend = () => {
     function sending(e) {
