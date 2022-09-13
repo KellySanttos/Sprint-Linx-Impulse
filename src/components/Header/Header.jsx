@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button.jsx';
+import S from './Header.module.css';
+import Menu from '../Menu/Menu.jsx';
 
 const Header = () => {
     return (
@@ -24,3 +26,5 @@ const Header = () => {
     </header>
   );
 };
+
+export default Header;
