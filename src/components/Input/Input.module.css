@@ -14,4 +14,8 @@
     font-size: 12px;
   }
 
-  
+  @media screen and (max-width: 450px) {
+    .input{
+      height: 20px;
+    }
+  }
