@@ -16,9 +16,10 @@
   }
 
   .p{
-    color: rgb(0, 0, 0);
-    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    background-color: #9622cc;
     border-radius: 30px;
+    padding: 10px 15px;
   }
 
   .divInput{
