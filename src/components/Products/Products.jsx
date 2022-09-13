@@ -48,7 +48,7 @@ const Products = () => {
         <Button
           className={S.button}
           onClick={nextSection}
-          content="Ainda mais produtos aqui"
+          content="Obter mais produtos"
         />
         <Separator text="Compartilhe a novidade" />
       </div>
