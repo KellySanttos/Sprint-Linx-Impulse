@@ -11,6 +11,10 @@
     gap: 50px;
   }
 
+  .button {
+    color: black;
+  }
+
   .p{
     color: gray;
   }
