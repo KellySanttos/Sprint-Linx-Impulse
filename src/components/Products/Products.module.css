@@ -1,0 +1,44 @@
+.div{
+    width: 70%;
+    margin: 10% 10% 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .button{
+    height: 40px;
+    width: 250px;
+    background-color: #ff8e3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5%;
+    margin-bottom: 150px;
+  }
+
+  @media screen and (max-width: 450px) {
+    .div{
+      margin: 10% auto;
+      align-items: flex-start;
+      width: 80%;
+    }
+    
+    .page{
+      flex-direction: column;
+    }
+  
+    .button{
+      margin-top: 50px;
+    }
+  }
