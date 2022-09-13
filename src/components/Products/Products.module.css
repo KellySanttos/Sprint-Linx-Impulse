@@ -15,4 +15,14 @@
     margin-top: 100px;
   }
 
-  
+  .button{
+    height: 40px;
+    width: 250px;
+    background-color: #ff8e3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5%;
+    margin-bottom: 150px;
+  }
