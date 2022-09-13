@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import ShareFriend from './components/ShareFriend/ShareFriend';
+import Header from './components/Header/Header.jsx'
+import ShareFriend from './components/ShareFriend/ShareFriend.jsx'
 import './App.css'
 
 function App() {
