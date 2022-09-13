@@ -49,7 +49,7 @@ const Form = (type) => {
                 </div>
 
             </section>
-            <Button className={S.button} content="enviar" />
+            <Button className={S.button} content="ENVIAR" />
         </form>
     );
 };

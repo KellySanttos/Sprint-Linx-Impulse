@@ -10,6 +10,7 @@
 .button{
     height: 40px;
     width: 100%;
+    color: black;
     background-color: #dcdf27;
     border: none;
     border-radius: 5px;
