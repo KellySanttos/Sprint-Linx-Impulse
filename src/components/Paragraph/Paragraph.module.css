@@ -1,0 +1,14 @@
+.div{
+    margin: 0;
+    width: 40%;
+  }
+  
+  .h2{
+    font-size: 20px;
+    color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    background-color: #9622cc;
+    border-radius: 30px;
+    padding: 10px 15px;
+  }
