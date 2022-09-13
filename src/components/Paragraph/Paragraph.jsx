@@ -1,4 +1,5 @@
 import React from 'react';
+import S from './Paragraph.module.css';
 
 
 const Paragraph = () => {
@@ -30,3 +31,5 @@ const Paragraph = () => {
     </div>
   );
 };
+
+export default Paragraph;
