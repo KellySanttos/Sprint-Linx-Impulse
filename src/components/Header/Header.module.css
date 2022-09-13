@@ -62,4 +62,42 @@
     color: gray;
   }
 
-  
+  @media screen and (max-width: 450px) {
+    body{
+      display: flex;
+    }
+    .header {
+      height: 400px;
+    }
+    .h2{
+      margin-top: 25px;
+    }
+    
+    .h1{
+      font-size: 30px;
+      margin-top: 5px;
+      color: #0d0d0d;
+    }
+    
+    .p{
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    
+    .div{
+      margin: 30px;
+      gap: 10px;
+      padding-left: 7px;
+      width: 200px;
+    }
+    
+    .button{
+      height: 20px;
+      width: 100px;
+      font-size: 9px;
+    }
+    
+    .span{
+      font-size: 9px;
+    }
+  } 
