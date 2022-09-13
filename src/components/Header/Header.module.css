@@ -19,3 +19,16 @@
     font-weight: 400;
     color: #0d0d0d;
   }
+
+  .h1{
+    font-size: 40px;
+    margin-top: 10px;
+    color: #0d0d0d;
+    opacity: 90%;
+  }
+  
+  .diff{
+    color: #ff8e3c;
+  }
+
+  
