@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 import Rating from '../Rating/Rating';
-import Card from './Card.module.css';
+import S from './Card.module.css';
 
 const Card = ({ img, name, description, oldValue, newValue, times, or }) => {
   return (
