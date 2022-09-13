@@ -28,7 +28,7 @@
   }
   
   .diff{
-    color: #dcdf27;
+    color: #ecf00c;
   }
 
   .p{
@@ -51,7 +51,8 @@
   .button{
     height: 40px;
     width: 150px;
-    background-color: #dcdf27;
+    background-color: #ecf00c;
+    color: #0d0d0d;
     border: none;
     cursor: pointer;
     font-size: 14px;
