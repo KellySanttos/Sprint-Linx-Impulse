@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={S.footer}>
       <p className={S.p}>
         Testando suas habilidades em React.
-        <span className={S.span}> Linx Impulse 2019</span>
+        <span className={S.span}> Linx Impulse 2022</span>
       </p>
     </footer>
   );
