@@ -1,5 +1,6 @@
 import React from 'react';
 import S from './Rating.module.css';
+import star from '../../assets/golden-star.png';
 
 
 const Rating = () => {
