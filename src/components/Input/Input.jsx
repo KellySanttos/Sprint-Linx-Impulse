@@ -18,4 +18,4 @@ const Input = ({ id, type, value, error, onChange, onBlur, placeholder }) => {
     );
   };
 
-  
+export default Input;
