@@ -1,4 +1,5 @@
 import React from 'react';
+import S from './Input.module.css';
 
 const Input = ({ id, type, value, error, onChange, onBlur, placeholder }) => {
     return (
